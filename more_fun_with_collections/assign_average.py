@@ -1,3 +1,16 @@
+"""
+Program assign_average.py
+
+Author: Greg Wilhelm
+
+Last date modified: 3/18/2020
+
+The purpose of this program is to lookup the least average score for a grade using a switch/case implemented by a
+function and the dictionary collection.
+
+"""
+
+
 def switch_average(grade):
     switcher = {
         'A': 90,
