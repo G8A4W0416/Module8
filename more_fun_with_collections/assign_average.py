@@ -7,5 +7,5 @@ def switch_average(grade):
         'F': 0
     }
     # Second parameter acts as our default
-    average = switcher.get(grade)
+    average = switcher.get(grade, "Invalid Grade")
     return average
